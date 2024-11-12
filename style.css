@@ -1,0 +1,192 @@
+body {
+    background-image: url('images/background.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* This makes the image cover the entire screen */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav div a, nav div input, nav div button {
+    margin-right: 15px;
+}
+
+
+#search-bar {
+    border: none;
+    padding: 10px;
+    flex-grow: 1;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+
+/* Ensures that the navigation is flexible */
+nav {
+    display: flex;
+    justify-content: space-between; /* This ensures the items are spaced apart */
+    align-items: center;
+}
+
+
+/* Flexbox container for Contact Us and form */
+.contact-container {
+    display: flex;
+    justify-content: space-between; /* Pushes items to the left and right */
+    align-items: center;
+    width: 100%; /* Makes it take up the available space */
+}
+
+
+/* Style for the form elements */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; /* Space between Contact Us and form */
+}
+
+
+form input, form textarea, form button {
+    margin: 5px 0;
+    padding: 10px;
+    width: 200px; /* Adjust size as needed */
+}
+
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Basic layout for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style for the navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+/* Main section styles */
+main {
+    padding: 20px;
+}
+
+
+/* Style for About Us section */
+.about-us {
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.about-us h2 {
+    margin-bottom: 10px;
+}
+
+
+.about-us p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+
+/* Team Section Styles */
+.team {
+    padding-top: 20px;
+}
+
+
+.team h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+
+.team-members {
+    display: flex;
+    justify-content: space-between; /* Aligns the team members horizontally */
+    color: darkgrey;
+}
+
+
+.team-member {
+    text-align: center;
+    flex: 1;
+    margin: 0 15px; /* Adds spacing between each team member */
+}
+
+
+.team-member p {
+    margin: 5px 0;
+}
+
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .team-members {
+        flex-direction: column; /* Stack team members vertically on smaller screens */
+        align-items: center;
+    }
+
+
+    .team-member {
+        margin-bottom: 20px;
+    }
+}
+
+
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+#search-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+#clear-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+
+
+
+
